@@ -9,6 +9,6 @@ describe("App Component", () => {
         name: "World"
       }
     });
-    expect(el.textContent).not.toBeNull();
+    expect(el?.firstChild?.textContent).not.toBeNull();
   });
 });
